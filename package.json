@@ -6,10 +6,14 @@
   "license": "UNLICENSED",
   "bin": {},
   "scripts": {
+    "lint": "eslint .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "@bust/eslint-config": "^1.0.0",
+    "eslint": "^4.8.0"
+  },
   "engines": {
     "node": ">= 8",
     "npm": ">= 5"
