@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`bust cli complains about missing command 1`] = `
+"Not enough non-option arguments: got 0, need at least 1
+
+whoops, something went wrong! run with --help
+"
+`;
+
+exports[`bust cli complains about unrecognized command 1`] = `
+"Unknown argument: wat-nope-nah
+
+whoops, something went wrong! run with --help
+"
+`;
+
+exports[`bust cli prints help 1`] = `
+"Usage: bust <command> [options]
+
+Commands:
+  gitignore  create .gitignore file                                [aliases: gi]
+
+Options:
+  --version, -v  display version information                           [boolean]
+  --help, -h     display help message                                  [boolean]
+
+"
+`;

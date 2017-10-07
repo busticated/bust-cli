@@ -9,14 +9,15 @@
   },
   "scripts": {
     "lint": "eslint .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "dependencies": {
     "yargs": "^9.0.1"
   },
   "devDependencies": {
     "@bust/eslint-config": "^1.0.0",
-    "eslint": "^4.8.0"
+    "eslint": "^4.8.0",
+    "jest": "^21.2.1"
   },
   "engines": {
     "node": ">= 8",

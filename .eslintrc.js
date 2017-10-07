@@ -3,6 +3,9 @@ module.exports = {
     parserOptions: {
         ecmaVersion: 2017
     },
+    env: {
+        jest: true
+    },
     rules: {
         'no-magic-numbers': 0,
         'space-before-blocks': [2, {
